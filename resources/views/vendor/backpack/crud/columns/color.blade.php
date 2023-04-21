@@ -1,0 +1,1 @@
+<div style="background-color: {{ $entry->{$column['name']} }}; width: 100%; padding: 13px;"></div>
