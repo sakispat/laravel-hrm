@@ -24,10 +24,7 @@ return [
     'back_to_all'                             => 'Επιστροφή στη λίστα ',
     'cancel'                                  => 'Ακύρωση',
     'add_a_new'                               => 'Προσθήκη ',
-    'area'                                    => 'Περιοχή',
-    'employee'                                => 'Υπάλληλος',
-    'task'                                    => 'Εργασία',
-    'group tasks'                             => 'Ομαδικές Εργασίες',
+    'reset'                                   => 'Επαναφορά',
 
     // Create form - advanced options
     'after_saving'                            => 'Μετά την αποθήκευση',
@@ -41,7 +38,6 @@ return [
 
     // CRUD table view
     'all'                                     => '',
-    'name'                                    => 'Όνομα',
     'in_the_database'                         => 'της βάσης δεδομένων',
     'list'                                    => 'Λίστα',
     'actions'                                 => 'Ενέργειες',
@@ -68,8 +64,8 @@ return [
     'infoPostFix'                             => '.',
     'thousands'                               => ',',
     'lengthMenu'                              => '_MENU_ εγγραφές ανά σελίδα',
-    'loadingRecords'                          => 'Loading...',
-    'processing'                              => 'Processing...',
+    'loadingRecords'                          => 'Φόρτωση...',
+    'processing'                              => 'Επεξεργασία...',
     'search'                                  => 'Αναζήτηση',
     'zeroRecords'                             => 'Δεν βρέθηκε καμία σχετική εγγραφή',
     'paginate'                                => [
@@ -118,16 +114,17 @@ return [
     'table_max_reached'                       => 'Μέγιστο πλήθος από :max reached',
 
     // Dashboard
-    'areas'                                  => 'Περιοχές',
-    'employees'                              => 'Υπάλληλοι',
-    'programs'                               => 'Πρόγραμματα',
-    'shifts'                                 => 'Βάρδιες',
-    'tasks'                                  => 'Εργασίες',
-    'group tasks'                            => 'Ομαδικές Εργασίες',
+    'areas'                                   => 'Περιοχές',
+    'employees'                               => 'Υπάλληλοι',
+    'programs'                                => 'Πρόγραμματα',
+    'shifts'                                  => 'Βάρδιες',
+    'tasks'                                   => 'Εργασίες',
+    'group_tasks'                             => 'Ομαδικές Εργασίες',
 
     // Program Weeks
-    'names'                                  => 'Όνοματα',
-    'program weeks'                          => 'Πρόγραμμα Εδομάδας',
-    'from'                                   => 'από',
-    'to'                                     => 'μέχρι',
+    'names'                                   => 'Όνοματα',
+    'program_weeks'                           => 'Πρόγραμμα Εδομάδας',
+    'from'                                    => 'από',
+    'to'                                      => 'μέχρι',
+    'time_shift'                              => 'Ωράριο βάρδιας',
 ];

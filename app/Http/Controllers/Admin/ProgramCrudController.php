@@ -63,7 +63,11 @@ class ProgramCrudController extends CrudController
     {
         CRUD::setValidation(ProgramRequest::class);
 
-        CRUD::field('employee');
+        $this->crud->addField([
+            'label'     => 'Employee',
+            'type'      => 'select',
+            'name'      => 'employee_id',
+        ]);
         CRUD::field('area');
         $this->crud->addField([
             'label'     => 'Task',

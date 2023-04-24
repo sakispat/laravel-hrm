@@ -7,4 +7,4 @@
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('program') }}"><i class="nav-icon la la-calendar"></i> {{ __('crud.programs') }}</a></li>
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('shift') }}"><i class="nav-icon la la-tachometer"></i> {{ __('crud.shifts') }}</a></li>
 <li class="nav-item"><a class="nav-link" href="{{ backpack_url('task') }}"><i class="nav-icon la la-tasks"></i> {{ __('crud.tasks') }}</a></li>
-<li class="nav-item"><a class="nav-link" href="{{ backpack_url('group-task') }}"><i class="nav-icon la la-user-friends"></i> {{ __('crud.group tasks') }}</a></li>
+<li class="nav-item"><a class="nav-link" href="{{ backpack_url('group-task') }}"><i class="nav-icon la la-user-friends"></i> {{ __('crud.group_tasks') }}</a></li>
