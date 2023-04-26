@@ -5,10 +5,6 @@
         ->type('style')
         ->content('assets/css/main.css');
 
-    // Widget::add()
-    //     ->type('script')
-    //     ->content('assets/js/model.js');
-
     $weeks = Carbon\Carbon::now();
     $start = $weeks->startOfWeek()->format('d-m-Y');
     $end = $weeks->endOfWeek()->format('d-m-Y');
