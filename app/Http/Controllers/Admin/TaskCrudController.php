@@ -62,7 +62,11 @@ class TaskCrudController extends CrudController
 
         CRUD::field('name');
         CRUD::field('area');
-        CRUD::field('extraTask');
+        $this->crud->addField([
+            'name'  => 'extraTask',
+            'label' => 'Extra Task',
+            'type'  => 'checkbox'
+        ]);
 
         /**
          * Fields can be defined using the fluent syntax or array syntax:

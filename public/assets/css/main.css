@@ -4,4 +4,8 @@
     color: #fff;
 }
 
-.la-plus-circle { font-size: 24px; }
+.la-caret-left,
+.la-caret-right,
+.la-plus-circle {
+    font-size: 24px;
+}
