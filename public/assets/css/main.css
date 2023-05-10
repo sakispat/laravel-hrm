@@ -1,3 +1,6 @@
+/* Navbar */
+.nav.navbar-nav.ml-auto { margin-right: 25px; }
+
 /* Icons */
 .la-edit {
     font-size: 24px;
